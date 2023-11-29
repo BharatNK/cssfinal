@@ -1,18 +1,4 @@
 
-
-h1{
-    color: blue;
-    font-family: "oswald",cursive;
-    border-top-style: dotted;
-    border-bottom-style: dashed;
-    border-color: aquamarine;
-
-}
-p{
-    
-    color:black;
-    border-style:double;
-    border-width: 10px;
-    border-radius: 15px;
-    padding: 5px;
+img{
+    float: left;
 }
