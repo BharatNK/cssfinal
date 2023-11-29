@@ -1,0 +1,26 @@
+#box1{
+    border:5px solid;
+    height:200px;
+    width: 200px;
+    background-color: aqua;
+    font-size: 100px;
+    text-align: center;
+
+
+    animation-name: myslide;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-play-state: running;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    
+}
+
+@keyframes myslide {
+    from{margin-left: 100%;}
+    to{margin-left:0%};
+    
+}
+@keyframes myRotate{
+    100%{transform: rotateX(180deg)}
+}
