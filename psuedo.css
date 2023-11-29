@@ -13,3 +13,14 @@ a:hover{
 p:hover{
     color: purple;
 }
+
+
+li:nth-child(even)
+{
+color: brown;
+}
+
+li:nth-child(3n+0)
+{
+    color: green;
+}
