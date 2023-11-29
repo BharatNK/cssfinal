@@ -24,6 +24,9 @@ p{
 {
     background-color: grey;
     color: greenyellow;
+    font-size: medium;
+    font-weight: 300;
+    font-style: italic;
 }
 .even{
     background-color: red;
